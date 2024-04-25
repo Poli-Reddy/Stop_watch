@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+#stopwatch {
+    position:fixed;
+    text-align: center;
+    
+    padding: 50px;
+    border-radius: 5px;
+    
+}
+#time {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color:red;
+
+}
+#bgVideo{
+    transform:scale(1.5) rotate(-90deg);
+    object-fit: cover;
+    width: 35vw;
+    height: 130vh;
+    top: 0;
+    left: 0;
+}
+button {
+    border: none;
+    background-color:red;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:disabled {
+   
+    cursor: not-allowed;
+}
